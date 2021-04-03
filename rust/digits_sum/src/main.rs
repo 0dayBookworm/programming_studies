@@ -1,5 +1,11 @@
 use std::io;
 
+/// Returns the sum of the digits in a number.
+///
+/// # Arguments
+///
+/// * `num` - integer
+///
 fn add_digits(num: u32) -> u32 {
     if num != 0 {
         let digit = num % 10;
